@@ -12,5 +12,6 @@ Search in room5
     Then Wait until search input is visible
     When Type in search input article about gay pride
     Then I should get only one article in result with title 11 Best Gay Pride Parades Where You Can Be Loud and Be Proud
+    [Teardown]    Close Browser
 
 
